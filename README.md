@@ -1,7 +1,7 @@
 # NLP and podcasts - happy marriage?
 Below follows some initial analyis.
 
-## Some descriptive stats of the data
+## Some descriptive stats of the metadata
 
 ![duration dist](Images/duration_dist.png)
 
