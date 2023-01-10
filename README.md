@@ -3,8 +3,9 @@ Code repo for thesis
 
 ## Some descriptive stats of the data
 
-Almost all podcasts have a duration of less than 90 minutes. A uniform distibution up to that point is prevalent.
 ![duration dist](Images/duration_dist.png)
+
+Almost all podcasts have a duration of less than 90 minutes. A uniform distibution up to that point is prevalent.
 
 
 ![word dist](Images/words_dist.png)
@@ -35,6 +36,7 @@ Log log scale! Line is the kernel density estimator and helps to get a feeling f
 
 
 **Data in numbers:**
+
 Number of unique values
 * show_name    18290
 * show_description    18322
