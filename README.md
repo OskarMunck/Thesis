@@ -4,10 +4,10 @@ Code repo for thesis
 ## Some descriptive stats of the data
 
 Almost all podcasts have a duration of less than 90 minutes. A uniform distibution up to that point is prevalent.
-!(Images/duration_dist.png)
+![duration dist](Images/duration_dist.png)
 
 
-!(Images/words_dist.png)
+![word dist](Images/words_dist.png)
 
 Distribution of words in episode and show descriptions are very similar. Line represents a kernel desitimy estimator which smooths the distribution, used for getting a better feeling for the distribution. Notice the small bumb above 400 which is apperant in both shows and episodes.
 
