@@ -10,8 +10,8 @@ Almost all podcasts have a duration of less than 90 minutes. A uniform distibuti
 <img src="Images/words_dist.png", width="400">
 Distribution of words in episode and show descriptions are very similar. Line represents a kernel desitimy estimator which smooths the distribution, used for getting a better feeling for the distribution. Notice the small bumb above 400 which is apperant in both shows and episodes.
 
-<img src="Images/eps_per_show.png", width="400">
-Log log scale! Line is the kernel density estimator and helps to get a feeling for the distribution.  
+![Log log scale!](Images/eps_per_show.png)
+ Line is the kernel density estimator and helps to get a feeling for the distribution.  
 
 
 
