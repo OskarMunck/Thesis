@@ -16,7 +16,9 @@ Distribution of words in episode and show descriptions are very similar. Line re
 
 Log log scale! Line is the kernel density estimator and helps to get a feeling for the distribution.  
 
+![Sentiment](Images/sentiment_plot.png)
 
+Sentiment analysis over the episode descriptions reveal that the podcasts in general do not use extreme language. Most descriptions are quite neutral. This might stem from the fact that creators don't spend a lot of time on writing the episode description. Comparison with a sentiment analysis of the actual podcast transcripts might reveal other insights. 
 
 ## Data
 
