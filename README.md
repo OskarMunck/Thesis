@@ -8,13 +8,15 @@ Below follows some initial analyis.
 Number of unique values
 * show_name    18290
 * show_description    18322
-* publisher,    17490
-* language,    20
-* episode_uri,    105360
-* episode_name,    103660
-* Max no episodes of one show: 1072, Min: 1
-* Number of shows represented by only one episode: 8632
-* Number of shows represented by less than 10 episodes: 16354
+* publisher    17490
+* language    20
+* episode_uri    105360
+* episode_name    103660
+* Max no episodes of one show    1072, Min    1
+* Number of shows represented by only one episode    8632
+* Number of shows represented by less than 10 episodes    16354
+
+So, among else, we see that we have 105 360 podcasts from 18 290 different shows. 
 
 ![duration dist](Images/duration_dist.png)
 
