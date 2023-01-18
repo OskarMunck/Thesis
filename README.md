@@ -3,6 +3,19 @@ Below follows some initial analyis.
 
 ## Some descriptive stats of the metadata
 
+**Data in numbers:**
+
+Number of unique values
+* show_name    18290
+* show_description    18322
+* publisher,    17490
+* language,    20
+* episode_uri,    105360
+* episode_name,    103660
+* Max no episodes of one show: 1072, Min: 1
+* Number of shows represented by only one episode: 8632
+* Number of shows represented by less than 10 episodes: 16354
+
 ![duration dist](Images/duration_dist.png)
 
 Almost all podcasts have a duration of less than 90 minutes. A uniform distibution up to ~60 minutes is prevalent.
@@ -35,18 +48,3 @@ Sentiment analysis over the episode descriptions reveal that the podcasts in gen
 - duration : duration of the episode in minutes. e.g. 31.680000
 - show_filename_prefix: Filename_prefix of the show. e.g. `show_7gozmLqbcbr6PScMjc0Zl4`
 - episode_filename_prefix: Filename_prefix of the episode. e.g. `4vYOibPeC270jJlnRoAVO6`
-
-
-**Data in numbers:**
-
-Number of unique values
-* show_name    18290
-* show_description    18322
-* publisher,    17490
-* language,    20
-* episode_uri,    105360
-* episode_name,    103660
-* Max no episodes of one show: 1072, Min: 1
-* Number of shows represented by only one episode: 8632
-* Number of shows represented by less than 10 episodes: 16354
-
