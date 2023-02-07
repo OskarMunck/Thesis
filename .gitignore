@@ -3,3 +3,4 @@ metadata.tsv
 podcast_nlp_features.csv
 episode_extracts
 episode_extracts_walk
+transcripts_dataset.csv.gz
