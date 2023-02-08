@@ -1,8 +1,5 @@
-metadata.tsv
 .DS_Store
-podcast_nlp_features.csv
-episode_extracts
-episode_extracts_walk
 transcripts_dataset.csv.gz
 transcripts_dataset_v2.csv.gz
+metadata.tsv
 metadata_features.csv.gz
