@@ -1,5 +1,7 @@
 .DS_Store
 transcripts_dataset.csv.gz
 transcripts_dataset_v2.csv.gz
+transcripts_dataset_final.csv.gz
 metadata.tsv
+metadata.tar.gz
 metadata_features.csv.gz
