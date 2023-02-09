@@ -1,4 +1,5 @@
 .DS_Store
+transcripts_dataset_v1.csv.gz
 transcripts_dataset.csv.gz
 transcripts_dataset_v2.csv.gz
 transcripts_dataset_final.csv.gz
