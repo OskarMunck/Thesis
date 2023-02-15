@@ -4,6 +4,7 @@ transcripts_dataset.csv.gz
 transcripts_dataset_v2.csv.gz
 transcripts_dataset_final.csv.gz
 transcripts_dataset_final.csv
+transcripts_sample.csv.gz
 metadata.tsv
 metadata.tar.gz
 metadata_features.csv.gz
