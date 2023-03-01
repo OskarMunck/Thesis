@@ -10,3 +10,4 @@ metadata.tar.gz
 metadata_features.csv.gz
 transcripts_sample.csv.gz
 BERT_v1
+rss_fetch_partial.csv.gz
