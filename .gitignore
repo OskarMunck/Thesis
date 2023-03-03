@@ -11,4 +11,5 @@ metadata.csv.gz
 metadata_features.csv.gz
 transcripts_sample.csv.gz
 BERT_v1
+BERT_v2
 sentences_chunkssize_25.csv.gz
