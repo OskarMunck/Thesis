@@ -13,3 +13,4 @@ transcripts_sample.csv.gz
 BERT_v1
 BERT_v2
 sentences_chunkssize_25.csv.gz
+sentences_chunkssize_40.csv.gz
