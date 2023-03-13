@@ -19,3 +19,4 @@ embeddings
 sentences_chunkssize_1.csv.gz
 word_transcript_256.csv.gz
 sent_transcript_1.csv.gz
+embeddings_256.npy
