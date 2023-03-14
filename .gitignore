@@ -13,10 +13,13 @@ metadata_features.csv.gz
 transcripts_sample.csv.gz
 BERT_v1
 BERT_v2
+BERT_mini
 sentences_chunkssize_25.csv.gz
 sentences_chunkssize_40.csv.gz
 embeddings
+embeddings_mini
 sentences_chunkssize_1.csv.gz
 word_transcript_256.csv.gz
 sent_transcript_1.csv.gz
 embeddings_256.npy
+embeddings_mini.npy
