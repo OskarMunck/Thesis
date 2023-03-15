@@ -11,6 +11,7 @@ metadata.tar.gz
 metadata.csv.gz
 metadata_features.csv.gz
 transcripts_sample.csv.gz
+transcript_sample_mini.csv.gz
 BERT_v1
 BERT_v2
 BERT_mini
