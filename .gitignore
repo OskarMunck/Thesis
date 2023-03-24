@@ -1,16 +1,9 @@
 .DS_Store
-transcripts_dataset_v1.csv.gz
 transcripts_dataset.csv.gz
-transcripts_dataset_v2.csv.gz
 transcripts_dataset_final.csv.gz
-transcripts_dataset_final.csv
-transcripts_sample.csv.gz
-transcripts_sample_old.csv.gz
 transcript_sample_mini.csv.gz
 metadata.tsv
-metadata.tar.gz
 metadata.csv.gz
-metadata_features.csv.gz
 transcripts_sample.csv.gz
 transcript_sample_mini.csv.gz
 BERT_v1
@@ -26,3 +19,9 @@ word_transcript_256.csv.gz
 sent_transcript_1.csv.gz
 embeddings_256.npy
 embeddings_mini.npy
+education_transcripts.csv.gz
+sports_transcripts.csv.gz
+sports_word_256.csv.gz
+sport_sent_1.csv.gz
+sports_embeddings_256.npy
+sports_embeddings_sentence_1.npy
