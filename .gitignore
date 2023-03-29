@@ -28,3 +28,4 @@ sports_embeddings_sentence_1.npy
 pipeline_BERT
 prediction_data.csv
 probabilities_test.npy
+tsne_data.pkl
