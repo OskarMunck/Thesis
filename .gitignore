@@ -33,3 +33,4 @@ hdbscan_model.pkl
 new_testing_proba.npy
 tsne_dimred_embeddings.npy
 api_key.txt
+probabilities.npy
