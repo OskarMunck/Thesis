@@ -29,3 +29,6 @@ pipeline_BERT
 prediction_data.csv
 probabilities_test.npy
 tsne_data.pkl
+hdbscan_model.pkl
+new_testing_proba.npy
+tsne_dimred_embeddings.npy
