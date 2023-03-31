@@ -34,3 +34,8 @@ new_testing_proba.npy
 tsne_dimred_embeddings.npy
 api_key.txt
 probabilities.npy
+sentence_tsne_dimred_embeddings.npy
+sentence100_tsne_dimred_embeddings.npy
+sentence100_tsne_data_.pkl
+sentence_tsne_data_.pkl
+sent_hdbscan_model.pkl
