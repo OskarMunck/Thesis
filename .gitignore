@@ -40,3 +40,4 @@ sentence100_tsne_data_.pkl
 sentence_tsne_data_.pkl
 sent_hdbscan_model.pkl
 sentence_hdbscan_model.pkl
+annotated_transcripts
