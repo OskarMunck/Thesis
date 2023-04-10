@@ -43,3 +43,5 @@ sentence_hdbscan_model.pkl
 annotated_transcripts
 first_podcast.csv.gz
 annotations.csv
+annotated_transcripts_input
+annotated_probabilities
