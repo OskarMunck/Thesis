@@ -51,3 +51,5 @@ pca_model_word50.pkl
 sentence100_hdbscan_model.pkl
 annotated_dimreduced
 word50_hdbscan_model.pkl
+probabilities_new.npy
+prediction_hdbscan_model.pkl
