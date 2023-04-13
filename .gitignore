@@ -53,3 +53,4 @@ annotated_dimreduced
 word50_hdbscan_model.pkl
 probabilities_new.npy
 prediction_hdbscan_model.pkl
+len_of_annotations.csv
