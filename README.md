@@ -4,8 +4,8 @@
 Below follows some initial analyis.
 
 ## File structure
-0: Preprocessing and data wrangling
-1: Explorative data analysis
+0: Preprocessing and data wrangling\n
+1: Explorative data analysis\n
 2: topic modelling -  our own implementation of the BERTopic pipeline
 3: Analysis of topic models
 4: Modified topic tiling implementation to be used with transformer based topic modelling
