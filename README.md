@@ -3,7 +3,7 @@
 
 Below follows some initial analyis.
 
-## File structure
+## Repository file structure
 0: Preprocessing and data wrangling  
 1: Explorative data analysis  
 2: topic modelling -  our own implementation of the BERTopic pipeline  
