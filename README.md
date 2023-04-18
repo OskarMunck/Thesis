@@ -31,7 +31,7 @@ In the data we see that there are a large discrepancy in topic distributions ass
 We are going to have to subset the data due to computational constraints. 
 Lets investigate the word count and duration distributions of the two largest categories to find an appropriate subset.
 
-![distributions](Images/eduvssportpng)
+![distributions](Images/eduvssport.png)
 
 We see that even though the education category contain more transcripts, the sports category transcripts are on average longer. Therefore we have chosen to subset the data according to the sports category for all downstream tasks. 
 
