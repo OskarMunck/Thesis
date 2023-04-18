@@ -37,7 +37,7 @@ We see that even though the education category contain more transcripts, the spo
 
 ![Embedings](Images/embeddings.png)
 
-Embedding the documents with BERT and reducing dimensionality in a twp step approach using PCA and t-SNE. 
+Embedding the documents with BERT and reducing dimensionality in a two step approach using PCA and t-SNE. 
 
 After applying HDBSCAN to the embeddings with two different configurations, we get the following topics: 
 
