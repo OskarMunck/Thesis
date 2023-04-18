@@ -1,4 +1,6 @@
-# NLP and podcasts - happy marriage?
+# Transformer Based Topic Modelling and Dynamic Segmentation of Speech-to-Text Transcribed Data
+## Applications for Effective Podcast Monetization
+
 Below follows some initial analyis.
 
 ## Some descriptive stats of the metadata
@@ -22,15 +24,24 @@ So, among else, we see that we have 105 360 podcasts from 18 290 different shows
 
 Almost all podcasts have a duration of less than 90 minutes. A uniform distibution up to ~60 minutes is prevalent.
 
+In the data we see that there are a large discrepancy in topic distributions assigned by the authors: 
 
-![word dist](Images/words_dist.png)
+![category distribution](Images/categories.png)
 
-Distribution of words in episode and show descriptions are very similar. Line represents a kernel density estimator which smooths the distribution, used for getting a better feeling for the distribution. Notice the small bump above 400 which is apperant in both shows and episodes.
+We are going to have to subset the data due to computational constraints. 
+Lets investigate the word count and duration distributions of the two largest categories to find an appropriate subset.
 
-![Log log scale!](Images/eps_per_show.png)
+![distributions](Images/eduvssportpng)
 
-Log log scale! Line is the kernel density estimator and helps to get a feeling for the distribution.  
+We see that even though the education category contain more transcripts, the sports category transcripts are on average longer. Therefore we have chosen to subset the data according to the sports category for all downstream tasks. 
 
-![Sentiment](Images/sentiment_plot.png)
+![Embedings](Images/embeddings.png)
 
-Sentiment analysis over the episode descriptions reveal that the podcasts in general do not use extreme language. Most descriptions are quite neutral. This might stem from the fact that creators don't spend a lot of time on writing the episode description. Comparison with a sentiment analysis of the actual podcast transcripts might reveal other insights. 
+Embedding the documents with BERT and reducing dimensionality in a twp step approach using PCA and t-SNE. 
+
+After applying HDBSCAN to the embeddings with two different configurations, we get the following topics: 
+
+![Embedings](Images/topic_clusters.png)
+
+
+## Sit tight! More to come, work in progress :) 
