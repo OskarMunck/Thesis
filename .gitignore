@@ -55,3 +55,7 @@ probabilities_new.npy
 prediction_hdbscan_model.pkl
 len_of_annotations.csv
 Final_models
+annotated_probabilities_msize200
+annotated_probabilities_msize50
+annotated_probabilities_msize15
+evaluation
