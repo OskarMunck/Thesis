@@ -59,3 +59,6 @@ annotated_probabilities_msize200
 annotated_probabilities_msize50
 annotated_probabilities_msize15
 evaluation
+__pycache__
+cTFIDF-master
+ctfidf.py
