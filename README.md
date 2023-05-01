@@ -45,9 +45,18 @@ We see that even though the education category contain more transcripts, the spo
 
 Embedding the documents with BERT and reducing dimensionality in a two step approach using PCA and t-SNE. 
 
-After applying HDBSCAN to the embeddings with two different configurations, we get the following topics: 
+After applying HDBSCAN to the embeddings with three different configurations of the hyperparamteres, we get the following clusters after removing noise: 
 
-![Embedings](Images/topic_clusters.png)
+![Embedings](Images/clusters.png)
 
+The topic cluster sizes have the following distribution of the 25 top topics of each HDBSCAN model: 
+
+![topic distributions](Images/topic_models_dist.png)
+
+After applying TopicTiling* according to our modified version that makes use of topic probability density vectors from the transformer based clustering with HDBSCAN, we get the following WindowDiff score when testing out different configurations of the window paramteter in TopicTiling* and the Mpts hyperparameter of HDBSCAN: 
+
+![Window_diff model eval](Images/model_selection.png)
+
+based on the obeve plot we see that different Mpts configuraitons do not make any difference but altering the window parameter does. We observe a negative exponential relationship between WindowDiff and window size for all models. After the window is increased to 20, we see less of an improvment. Therefore, we have selected a model with window size = 20 for all forthcomming evaluation. 
 
 ## Sit tight! More to come, work in progress :) 
