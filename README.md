@@ -51,7 +51,7 @@ After applying HDBSCAN to the embeddings with three different configurations of 
 
 The topic cluster sizes have the following distribution of the 25 top topics of each HDBSCAN model: 
 
-![topic distributions](Images/topic_models_dist.png)
+![topic distributions](Images/topic_model_dist.png)
 
 After applying TopicTiling* according to our modified version that makes use of topic probability density vectors from the transformer based clustering with HDBSCAN, we get the following WindowDiff score when testing out different configurations of the window paramteter in TopicTiling* and the Mpts hyperparameter of HDBSCAN: 
 
