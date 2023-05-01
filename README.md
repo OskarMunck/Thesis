@@ -41,9 +41,13 @@ Lets investigate the word count and duration distributions of the two largest ca
 
 We see that even though the education category contain more transcripts, the sports category transcripts are on average longer. Therefore we have chosen to subset the data according to the sports category for all downstream tasks. 
 
-![Embedings](Images/embeddings.png)
+Now when we have a suitable subset for the tasks that we want to perform, we can present our modelling pipeline.
+
+![Modelling pipeline](Images/modelling_pipeline.png)
 
 Embedding the documents with BERT and reducing dimensionality in a two step approach using PCA and t-SNE. 
+
+![Embedings](Images/embeddings.png)
 
 After applying HDBSCAN to the embeddings with three different configurations of the hyperparamteres, we get the following clusters after removing noise: 
 
