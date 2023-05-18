@@ -9,6 +9,8 @@ Below follows some initial analyis.
 2: Topic modelling -  our own implementation of the BERTopic pipeline  
 3: Analysis of topic models  
 4: Modified topic tiling implementation to be used with transformer based topic modelling  
+5: Assign topics to segments of podcasts
+6: Code not used in final version of project
 
 
 ## Project summary
@@ -17,6 +19,7 @@ The growing podcast industry necessitates innovative advertising strategies, pro
 
 ### Research questions
 RQ 1: How can data science methods locate topical shifts in podcast transcripts?
+
 RQ 2: How can data science methods find topics that are meaningful for podcast advertisement?
 
 
