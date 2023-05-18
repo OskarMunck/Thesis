@@ -82,7 +82,7 @@ After applying TopicTiling* according to our modified version that makes use of 
 
 based on the above plot we see that different m_pts configuraitons barely make any difference but altering the window parameter does. We observe a negative exponential relationship between WindowDiff and window size for all models. After the window is increased to 20, we see less of an improvment. Therefore, we have selected a model with window size = 20 for all forthcomming evaluation. 
 
-To read the results of the topic assignments to segments and conclusions of our thesis, please see the pdf: [MSc_thesis](master_thesis_final.pdf)
+To read the results of the topic assignments to segments and conclusions of our thesis, please see the pdf: [MSc_thesis](masters_thesis_final.pdf)
 
 ### A note on hyperparameter tuning for future iterations of TopicTiling*
 
