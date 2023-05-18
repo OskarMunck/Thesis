@@ -79,8 +79,25 @@ After applying TopicTiling* according to our modified version that makes use of 
 
 based on the above plot we see that different m_pts configuraitons barely make any difference but altering the window parameter does. We observe a negative exponential relationship between WindowDiff and window size for all models. After the window is increased to 20, we see less of an improvment. Therefore, we have selected a model with window size = 20 for all forthcomming evaluation. 
 
-As previously discussed, increasing or decreasing the value of m_pts in HDBSCAN did not improve the WindowDiff score. However, it does increase the size of the drops in cosine similarity that segment breaks are predicted at and the number of predicted boundaries. In the figure below we observe the cosine similarity between windows over all positions sequentially plotted for one of the annotated transcripts as the blue line. The red crosses describe where boundaries are predicted to be allocated and the actual boundaries are shown as yellow vertical lines. For these three pipeline configurations, the number of predicted breaks decrease as the minimum cluster size increase. For m_pts=15 we get 27 boundaries, for m_pts=50 we get 24 and for m_pts=200 we get 20 in this specific transcript consisting of 600 sentences. Furthermore, as m_pts increase from 15 to 200, the range that the cosine similarity takes on increase from [0.02, 0.831] to [0.045, 0.934]. Clustering with m_pts= 50 gets a range with values in the middle of the two.
+To read the results of the topic assignments to segments and conclusions of our thesis, please see the pdf: [MSc_thesis](master_thesis_final.pdf)
+
+### A note on hyperparameter tuning for future iterations of TopicTiling*
+
+In the table below the impact of cluster model configuration on cosine similarity range size and average depth scores can be observed across the full annotation set for the three models. The average depth score for the three models increases as mpts shifts from 15 to 50 and then decreases again as mpts go to 200. The cosine similarity range is approximately the same for the two models with mpts set to 15 and 50 and then drops down for the mpts 200 model. A high average depth score in relation to the average cosine similarity range means that the model produces high local maxima and low local minima relative to the cosine similarity range used. This could implicate that the model is more robust against randomness in local variability of the sequential cosine similarities of a transcript.
+
+| mpts | Avg. cos(θ) range size   | Avg. depth score | 
+| ---- |:-------------:| :-----:|
+| 15  | 0.714 | 0.456| 
+| 50  | 0.720 | 0.551 |
+| 200 | 0.664 | 0.448 |
+
+To illustrate an example of this, we have in the below figure plotted the cosine similarity between windows over all positions sequentially for one of the annotated transcripts as the blue line. The red crosses mark where boundaries are predicted to be situated and the actual boundaries are shown as yellow vertical lines. As seen in the accompanying table which displays the descriptive statistics, as mpts increases from 15 to 200 the range the cosine similarity takes on increases from 0.811 to 0.888, and the depth score average increase from 0.339 to 0.431. Clustering with mpts = 50 gets a range of 0.862 and an average depth score of 0.487. As can be observed in the rightmost column is that for the two models where the range is smaller and the average depth score is higher (mpts = {50, 200}), the models are better at placing segmentation boundaries as evidenced by the WindowDiff scores. However, this can only serve as a demonstration of how the cluster model may impact TopicTiling*. To make any conclusions about this finding, an evaluation of a larger set of annotated data would be required than what is possible in this study.
+
+| mpts | Avg. cos(θ) range size   | Avg. depth score | WD
+| ---- |:-------------:| :-----:| :----: 
+| 15  | 0.811 | 0.339| 0.26s
+| 50  | 0.862 | 0.487 |0.22
+| 200 | 0.888 | 0.431 |0.22
+
 
 ![Cosine sim ex](Images/cosine_sim_ex.png)
-
-## Sit tight! More to come, work in progress :) 
