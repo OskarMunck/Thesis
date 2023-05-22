@@ -97,7 +97,7 @@ To illustrate an example of this, we have in the below figure plotted the cosine
 
 | mpts | Avg. cos(θ) range size   | Avg. depth score | WD
 | ---- |:-------------:| :-----:| :----: 
-| 15  | 0.811 | 0.339| 0.26s
+| 15  | 0.811 | 0.339| 0.26
 | 50  | 0.862 | 0.487 |0.22
 | 200 | 0.888 | 0.431 |0.22
 
